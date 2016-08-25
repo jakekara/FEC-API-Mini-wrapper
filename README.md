@@ -5,8 +5,14 @@ jkara@trendct.org
 
 #### Example 1: Quickstart
 
-     >>> from fec import Fec
-     >>> conn = Fec(YOUR_API_KEY)
+Install:
+
+	$ pip install fec
+
+Use it:
+
+     >>> from fec import fec
+     >>> conn = fec.Fec(YOUR_API_KEY)
      >>> ret = conn.get("/candidates")
      >>> print ret
 

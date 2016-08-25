@@ -1,7 +1,8 @@
 import env, json
-from fec import Fec
+from fec import fec
+import simplejson
 
-conn = Fec(env.API_KEY)
+conn = fec.Fec(env.API_KEY)
 
 def run():
     ret = conn.get("/candidates",
